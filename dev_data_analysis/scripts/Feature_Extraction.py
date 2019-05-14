@@ -136,9 +136,9 @@ def ext_sgRNA_feat(site_30_bp):
     tm_vec = np.zeros((4))
     
     tm_vec[0] = calculate_Tm(site_30_bp)
-    tm_vec[1] = calculate_Tm(site_30_bp[5:10])
-    tm_vec[2] = calculate_Tm(site_30_bp[10:18])
-    tm_vec[3] = calculate_Tm(site_30_bp[18:23])
+    tm_vec[1] = calculate_Tm(site_30_bp[7:12])
+    tm_vec[2] = calculate_Tm(site_30_bp[12:20])
+    tm_vec[3] = calculate_Tm(site_30_bp[20:25])
     
     #Extra info about biophysics
     
