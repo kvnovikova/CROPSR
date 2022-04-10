@@ -30,7 +30,7 @@ parser.add_argument('-o', '--output', metavar='', dest='o', default='data.csv',
                     help='path to output file, default = data.csv'
                     )
 parser.add_argument('-l', '--length', metavar='', dest='l', type=int, default=20,
-                    help='length of the gRNA se3quence, default = 20'
+                    help='length of the gRNA sequence, default = 20'
                     )
 parser.add_argument('-L', '--flanking', metavar='', dest='L', type=int, default=200,
                     help='length of flanking region for verification, default = 200'
